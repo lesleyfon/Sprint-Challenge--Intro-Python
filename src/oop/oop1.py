@@ -17,3 +17,53 @@
 #     pass
 #
 # Put a comment noting which class is the base class
+class Vehicle:
+    '''
+        Base Class(Parent Class)
+    '''
+    pass
+
+
+class FlightVehicle:
+    '''
+        Base Class(Parent Class)
+    '''
+    pass
+
+
+class Starship:
+    '''
+        Base Class(Parent Class)
+    '''
+    pass
+
+
+class GroundVehicle(Vehicle):
+    '''
+        Child Class (Inherits Attributes and Mothods from Vehicle)
+    '''
+    pass
+
+
+class Car(GroundVehicle):
+    '''
+        Child Class of GroundVehicle (Inherits Attributes and Mothods from GroundVehicle)
+    '''
+    pass
+
+
+class Motorcycle(GroundVehicle):
+    '''
+        Child Class of GroundVehicle (Inherits Attributes and Mothods from GroundVehicle)
+    '''
+    pass
+
+# Flight Vehicle
+
+
+class Airplane(FlightVehicle):
+    '''
+        Child Class (Inherits Attributes and Mothods from FlightVehicle)
+    '''
+    pass
+
