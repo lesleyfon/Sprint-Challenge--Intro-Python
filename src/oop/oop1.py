@@ -24,14 +24,14 @@ class Vehicle:
     pass
 
 
-class FlightVehicle:
+class FlightVehicle(Vehicle):
     '''
         Base Class(Parent Class)
     '''
     pass
 
 
-class Starship:
+class Starship(FlightVehicle):
     '''
         Base Class(Parent Class)
     '''
@@ -66,4 +66,3 @@ class Airplane(FlightVehicle):
         Child Class (Inherits Attributes and Mothods from FlightVehicle)
     '''
     pass
-
